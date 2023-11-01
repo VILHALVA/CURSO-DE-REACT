@@ -2,6 +2,7 @@
 👨‍⚖️REACT É UMA BIBLIOTECA DE JAVASCRIPT UTILIZADA PARA CONSTRUIR INTERFACES DE USUÁRIO INTERATIVAS E REUTILIZÁVEIS. ELE PERMITE CRIAR COMPONENTES INDEPENDENTES QUE PODEM RENDERIZAR DINAMICAMENTE QUANDO OS DADOS MUDAM, RESULTANDO EM UMA UI MAIS EFICIENTE E RESPONSIVA. REACT É AMPLAMENTE UTILIZADO NO DESENVOLVIMENTO WEB PARA CRIAR APLICATIVOS DE PÁGINA ÚNICA (SPAS) E APLICATIVOS MÓVEIS USANDO O REACT NATIVE.
 
 [![GitHub Repo stars](https://img.shields.io/badge/VILHALVA-GITHUB-03A9F4?logo=github)](https://github.com/VILHALVA) 
+[![GitHub Repo stars](https://img.shields.io/badge/VEJA%20OS-VIDEOS-03A9F4?logo=youtube)](https://www.youtube.com/@vilhalva100/search?query=React)
 [![GitHub Repo stars](https://img.shields.io/badge/VEJA-DOCUMENTAÇÃO-03A9F4?logo=google)](https://legacy.reactjs.org/docs/getting-started.html) 
 <br>
 
