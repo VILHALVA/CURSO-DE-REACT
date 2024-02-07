@@ -1,62 +1,46 @@
 # CURSO DE REACT
 👨‍⚖️REACT É UMA BIBLIOTECA DE JAVASCRIPT UTILIZADA PARA CONSTRUIR INTERFACES DE USUÁRIO INTERATIVAS E REUTILIZÁVEIS. ELE PERMITE CRIAR COMPONENTES INDEPENDENTES QUE PODEM RENDERIZAR DINAMICAMENTE QUANDO OS DADOS MUDAM, RESULTANDO EM UMA UI MAIS EFICIENTE E RESPONSIVA. REACT É AMPLAMENTE UTILIZADO NO DESENVOLVIMENTO WEB PARA CRIAR APLICATIVOS DE PÁGINA ÚNICA (SPAS) E APLICATIVOS MÓVEIS USANDO O REACT NATIVE.
 
-[![GitHub Repo stars](https://img.shields.io/badge/VILHALVA-GITHUB-03A9F4?logo=github)](https://github.com/VILHALVA) 
-[![GitHub Repo stars](https://img.shields.io/badge/VEJA-DOCUMENTAÇÃO-03A9F4?logo=google)](https://legacy.reactjs.org/docs/getting-started.html)
-[![GitHub Repo stars](https://img.shields.io/badge/LINGUAGEM%20DE-PROGRAMAÇÃO-03A9F4?logo=github)](https://github.com/VILHALVA/CURSO-DE-JAVASCRIPT)
-[![GitHub Repo stars](https://img.shields.io/badge/-PLAYLIST%20DO%20YOUTUBE-blueviolet)](https://youtube.com/playlist?list=PL29TaWXah3iZktD5o1IHbc7JDqG_80iOm&si=zV5HVdLgQzLShBUE)
+<img src="FOTO.png" align="center" width="400"> <br>
 
 ## CONCEITO:
-### 1. React e TypeScript:
-React é uma biblioteca JavaScript popular para construir interfaces de usuário interativas, enquanto o TypeScript é uma linguagem que adiciona tipagem estática ao JavaScript. O uso do TypeScript com React é vantajoso, pois fornece benefícios como detecção de erros mais cedo, autocompletar mais robusto e documentação mais clara.
+React é uma biblioteca de JavaScript de código aberto, mantida pelo Facebook, que é usada para construir interfaces de usuário (UI) para aplicativos web. Ela foi inicialmente desenvolvida por Jordan Walke, um engenheiro de software do Facebook, e foi lançada pela primeira vez em 2013. Desde então, React se tornou uma das ferramentas mais populares para o desenvolvimento de UI, sendo amplamente adotada por empresas e desenvolvedores em todo o mundo.
 
-### 2. Componentes em React:
-Os componentes são a unidade básica de construção de interfaces no React. Eles podem ser funções ou classes que retornam elementos React (normalmente JSX). Aqui está um exemplo de um componente simples:
+O principal conceito por trás do React é o uso de componentes reutilizáveis para construir interfaces de usuário modulares. Um componente em React é uma parte isolada e independente da interface do usuário que pode conter HTML, CSS e lógica JavaScript. Esses componentes podem ser compostos uns com os outros para construir interfaces complexas de maneira eficiente e escalável.
 
-```tsx
-import React from 'react';
+Além disso, React utiliza um paradigma de programação chamado "programação declarativa", onde os desenvolvedores descrevem como a interface do usuário deve ser renderizada com base no estado do aplicativo. Em vez de manipular diretamente o DOM (Document Object Model) como em abordagens tradicionais, os desenvolvedores definem como a interface do usuário deve ser atualizada em resposta a mudanças de estado e React se encarrega de realizar essas atualizações de forma eficiente, aplicando o conceito de "virtual DOM".
 
-function HelloComponent(props: { name: string }) {
-  return <div>Hello, {props.name}!</div>;
-}
+Principais conceitos e recursos do React:
 
-export default HelloComponent;
-```
+1. **Componentes**: Os componentes são a unidade fundamental de construção em React. Eles podem ser classes ou funções que retornam elementos React.
 
-Neste exemplo, `HelloComponent` é uma função que aceita uma propriedade `name` e retorna um elemento React que exibe uma saudação.
+2. **Estado (State) e Propriedades (Props)**: O estado representa dados mutáveis que podem influenciar o comportamento de um componente, enquanto as props são utilizadas para passar dados de um componente pai para um componente filho.
 
-### 3. JSX:
-JSX (JavaScript XML) é uma extensão da sintaxe JavaScript usada para descrever a estrutura de elementos React. Ele permite que você crie elementos de maneira semelhante ao HTML. No exemplo anterior, o código dentro das chaves `{props.name}` é uma expressão JSX que é avaliada e inserida no componente.
+3. **Ciclo de Vida do Componente**: React fornece métodos específicos de ciclo de vida que são invocados em diferentes estágios da vida de um componente, permitindo que os desenvolvedores controlem o comportamento do componente em diferentes momentos.
 
-### 4. Props (Propriedades):
-As propriedades (ou props) são os mecanismos usados para passar dados para componentes React. No exemplo acima, `name` é uma propriedade passada para `HelloComponent`. Você pode acessar as propriedades dentro do componente usando `props.name`.
+4. **Renderização Condicional**: React oferece várias maneiras de renderizar componentes de forma condicional com base no estado do aplicativo.
 
-### 5. Estado em Componentes:
-Para gerenciar o estado interno de um componente, você pode usar `useState` (no caso de componentes funcionais) ou `this.state` (no caso de componentes de classe). O estado é usado para armazenar informações que podem mudar ao longo do tempo e acionar uma renderização quando são atualizadas.
+5. **Manipulação de Eventos**: React permite que os desenvolvedores criem manipuladores de eventos para interagir com os elementos da interface do usuário.
 
-Aqui está um exemplo de uso do `useState`:
+6. **Composição de Componentes**: Os componentes podem ser compostos uns com os outros para construir interfaces de usuário complexas e reutilizáveis.
 
-```tsx
-import React, { useState } from 'react';
+7. **Virtual DOM**: React utiliza uma representação em memória do DOM (conhecida como virtual DOM) para realizar atualizações eficientes na interface do usuário.
 
-function Counter() {
-  const [count, setCount] = useState(0);
+## SUA HISTÓRIA:
+Sua história remonta ao ano de 2011, quando Jordan Walke, um engenheiro do Facebook, iniciou o desenvolvimento do que viria a se tornar o React. A motivação inicial era resolver desafios de manutenção e escalabilidade enfrentados pelos desenvolvedores da empresa na construção de interfaces complexas e dinâmicas.
 
-  return (
-    <div>
-      <p>Contagem: {count}</p>
-      <button onClick={() => setCount(count + 1)}>Incrementar</button>
-    </div>
-  );
-}
+O React foi apresentado pela primeira vez ao público em maio de 2013, durante uma conferência do Facebook chamada JSConf US. Na época, era uma ferramenta interna usada para construir componentes de interface do usuário em produtos como o Feed de Notícias e o mural do Facebook.
 
-export default Counter;
-```
+O aspecto mais inovador do React na época era o conceito de "Virtual DOM". Em vez de atualizar diretamente o DOM (Document Object Model) toda vez que ocorria uma mudança na interface do usuário, o React criava uma representação virtual do DOM na memória e comparava-a com a versão atual, realizando apenas as alterações necessárias para sincronizá-las. Isso resultou em melhorias significativas de desempenho, especialmente em aplicações com muitas atualizações de interface.
 
-Neste exemplo, `count` é o estado, e `setCount` é uma função que atualiza o estado. A função `useState` é usada para inicializar o estado.
+Com o tempo, o React ganhou popularidade rapidamente, tanto dentro quanto fora do Facebook. Em 2015, o Facebook anunciou a disponibilidade do React como uma biblioteca de código aberto, permitindo que desenvolvedores de todo o mundo usassem e contribuíssem com o projeto.
+
+Desde então, o React tem sido constantemente atualizado e aprimorado. Novos recursos foram adicionados, como Hooks (introduzidos na versão 16.8), que permitem aos desenvolvedores utilizar o estado e outras funcionalidades do React em componentes de função. Além disso, a comunidade em torno do React cresceu exponencialmente, com muitas ferramentas, bibliotecas e recursos adicionais desenvolvidos para facilitar ainda mais o desenvolvimento de aplicativos web com React.
+
+Hoje, o React é uma das bibliotecas JavaScript mais populares para o desenvolvimento front-end, amplamente adotada por empresas de todos os tamanhos e utilizada em uma ampla variedade de aplicativos web, desde páginas estáticas até aplicações de grande escala em tempo real. Sua arquitetura modular, performance otimizada e a vasta comunidade de desenvolvedores contribuíram para seu sucesso e contínuo crescimento ao longo dos anos.
 
 ## CARACTERISTICAS:
-### Características Positivas:
+### POSITIVAS:
 1. **Tipagem Estática:** O TypeScript adiciona um sistema de tipagem estática ao JavaScript, o que ajuda a detectar erros em tempo de compilação. Isso pode levar a um código mais robusto e menos propenso a erros em tempo de execução.
 
 2. **Autocompletar e Intellisense:** O TypeScript oferece um ambiente de desenvolvimento mais rico, com autocompletar de código, realce de erros e sugestões úteis, o que aumenta a produtividade do desenvolvedor.
@@ -67,7 +51,7 @@ Neste exemplo, `count` é o estado, e `setCount` é uma função que atualiza o 
 
 5. **Melhor Colaboração em Equipe:** A tipagem estática facilita a colaboração em equipe, pois os desenvolvedores podem entender rapidamente a estrutura de dados e as expectativas de um componente.
 
-### Características Negativas:
+### NEGATIVAS:
 1. **Curva de Aprendizado:** A introdução do TypeScript pode aumentar a curva de aprendizado, especialmente para desenvolvedores que não estão familiarizados com a tipagem estática.
 
 2. **Código Mais Verboso:** O TypeScript pode exigir a definição de tipos e interfaces adicionais, tornando o código mais extenso em comparação com o JavaScript puro.
@@ -77,4 +61,11 @@ Neste exemplo, `count` é o estado, e `setCount` é uma função que atualiza o 
 4. **Compatibilidade de Bibliotecas:** Embora a maioria das bibliotecas populares do ecossistema React tenha suporte para TypeScript, algumas bibliotecas mais antigas ou menos usadas podem não ter suporte total.
 
 5. **Recursos Adicionais:** O uso do TypeScript pode adicionar alguma sobrecarga, já que você precisa aprender não apenas React, mas também TypeScript e suas especificidades.
+
+## SUBSIDIOS:
+- [CURSO CRIADO PELO "LUCAS SOUZA DEV"](https://youtube.com/playlist?list=PL29TaWXah3iZktD5o1IHbc7JDqG_80iOm&si=zV5HVdLgQzLShBUE)
+- [CURSO FEITO PELO VILHALVA](https://github.com/VILHALVA)
+- [VEJA A DOCUMENTAÇÃO](https://legacy.reactjs.org/docs/getting-started.html)
+- [LINGUAGEM DE PROGRAMAÇÃO](https://github.com/VILHALVA/CURSO-DE-JAVASCRIPT)
+- [VEJA A SINTAXE](./SINTAXE.md)
 
