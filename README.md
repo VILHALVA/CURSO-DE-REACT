@@ -65,7 +65,8 @@ Hoje, o React é uma das bibliotecas JavaScript mais populares para o desenvolvi
 ## SUBSIDIOS:
 - [CURSO CRIADO PELO "LUCAS SOUZA DEV"](https://youtube.com/playlist?list=PL29TaWXah3iZktD5o1IHbc7JDqG_80iOm&si=zV5HVdLgQzLShBUE)
 - [CURSO FEITO PELO VILHALVA](https://github.com/VILHALVA)
-- [VEJA A DOCUMENTAÇÃO](https://legacy.reactjs.org/docs/getting-started.html)
-- [LINGUAGEM DE PROGRAMAÇÃO](https://github.com/VILHALVA/CURSO-DE-JAVASCRIPT)
+- [VEJA A DOCUMENTAÇÃO](https://react.dev/)
+- [LINGUAGEM DE PROGRAMAÇÃO](https://github.com/VILHALVA/CURSO-DE-TYPECRIPT)
 - [VEJA A SINTAXE](./SINTAXE.md)
 - [VEJA OS PROJETOS](https://github.com/VILHALVA?tab=repositories&q=topic:REACT)
+
