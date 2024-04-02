@@ -1,6 +1,4 @@
 # INTRODUÇÃO
-Excelente, começar com React é empolgante! Vamos dar uma introdução, abordar a instalação, configuração e revisar os principais arquivos em um projeto React criado com o Create React App, que é uma ferramenta popular para iniciar rapidamente projetos React.
-
 ## Introdução a ReactJS:
 React é uma biblioteca JavaScript de código aberto mantida pelo Facebook e por uma comunidade de desenvolvedores. Ela é usada para construir interfaces de usuário interativas e é famosa por seu modelo de componente, que permite dividir a interface em partes reutilizáveis. O React utiliza um conceito chamado Virtual DOM para melhorar o desempenho das atualizações de interface.
 
@@ -12,20 +10,25 @@ O Create React App é uma ferramenta que facilita a inicialização de projetos 
    ```
    npm install -g create-react-app
    ```
-
-2. Em seguida, crie um novo projeto React usando o Create React App com o seguinte comando:
-
-   ```
-   npx create-react-app meu-app
-   ```
-
-   Substitua "meu-app" pelo nome desejado do seu projeto.
-
-3. Após a conclusão do processo de criação, acesse o diretório do projeto:
+2. Após a conclusão do processo de instalação, acesse o diretório do projeto:
 
    ```
    cd meu-app
    ```
+
+3. Em seguida, crie um novo projeto React (Em TypeScript) usando o Create React App com o seguinte comando:
+```bash
+npx create-react-app codigo --template typescript
+```
+
+## Iniciando o Servidor de Desenvolvimento:
+Para iniciar o servidor de desenvolvimento e ver seu aplicativo em ação, execute o seguinte comando no diretório raiz do seu projeto:
+
+```
+npm start
+```
+
+Isso iniciará um servidor local e abrirá seu aplicativo no navegador. Qualquer alteração que você fizer nos arquivos dentro do diretório `src/` será refletida automaticamente no navegador.
 
 ## Revisão dos Arquivos Principais:
 A estrutura de um projeto criado com o Create React App é organizada de forma que você possa começar rapidamente. Aqui estão os principais arquivos e diretórios:
@@ -41,14 +44,5 @@ A estrutura de um projeto criado com o Create React App é organizada de forma q
 - `package.json`: Este arquivo descreve as dependências do seu projeto e contém comandos para executar tarefas, como iniciar o servidor de desenvolvimento.
 
 - `package-lock.json`: Este arquivo é gerado automaticamente e descreve a árvore de dependências do seu projeto.
-
-## Iniciando o Servidor de Desenvolvimento:
-Para iniciar o servidor de desenvolvimento e ver seu aplicativo em ação, execute o seguinte comando no diretório raiz do seu projeto:
-
-```
-npm start
-```
-
-Isso iniciará um servidor local e abrirá seu aplicativo no navegador. Qualquer alteração que você fizer nos arquivos dentro do diretório `src/` será refletida automaticamente no navegador.
 
 Esta é apenas uma introdução ao React e ao Create React App. Conforme você avança no curso, você aprenderá mais sobre componentes, props, estados, roteamento e muitos outros conceitos importantes para o desenvolvimento React. Boa sorte em sua jornada de aprendizado!
