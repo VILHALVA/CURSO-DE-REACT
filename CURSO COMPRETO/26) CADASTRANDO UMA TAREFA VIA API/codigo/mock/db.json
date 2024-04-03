@@ -1,0 +1,10 @@
+{
+  "posts": [
+    { "id": 1, "title": "Hello World" },
+    { "id": 2, "title": "Introduction to JSON Server" }
+  ],
+  "tasks": [
+    { "id": 1, "title": "Comprar pão", "completed": false },
+    { "id": 2, "title": "Fazer exercícios", "completed": true }
+  ]
+}

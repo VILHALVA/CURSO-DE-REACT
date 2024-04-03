@@ -1,3 +1,6 @@
+# AVISO:
+Gostaríamos de salientar que até o capítulo 28 do curso, estaremos fornecendo códigos genéricos no diretório `codigo`. Estes códigos são diferentes daqueles fornecidos no curso original. Fica a seu critério fazer as instalações e personalizá-los de acordo com as suas preferências.
+
 # INTRODUÇÃO
 ## Introdução a ReactJS:
 React é uma biblioteca JavaScript de código aberto mantida pelo Facebook e por uma comunidade de desenvolvedores. Ela é usada para construir interfaces de usuário interativas e é famosa por seu modelo de componente, que permite dividir a interface em partes reutilizáveis. O React utiliza um conceito chamado Virtual DOM para melhorar o desempenho das atualizações de interface.
